@@ -1,0 +1,48 @@
+#box1{
+    width: auto;
+    height: 50px;
+    background-color: firebrick;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+#box2{
+    width: auto;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+table{
+    width: 600px;
+    border: 2px solid #000;
+}
+
+th{
+    text-align: center;
+}
+
+table, th{
+    border: 2px solid #000;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 20px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+
+.aside{
+    color: white;
+    background-color: blue;
+}
