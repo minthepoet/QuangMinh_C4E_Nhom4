@@ -1,0 +1,97 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu_bar{
+    background-color: black;
+    position: relative;
+    left: 35%;
+    float: left;
+}
+
+.menu_bar ul li {
+   float: left;
+   margin: 15px;
+   padding: 15px; 
+   font-size: 14px;
+   font-family: sans-serif;
+   list-style: none;
+   text-align: left;
+}
+
+.menu_bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.active, .menu_bar ul li:hover{
+    background-color: grey;
+    border-radius: 3px;
+}
+
+.submenu{
+    display: none;
+
+}
+
+.menu_bar ul li:hover .submenu{
+    display: block;
+    position: absolute;
+    background-color: black;
+    color: white;
+    margin-top: 15px;
+    margin-left: -15px;
+    width: 150px;
+}
+
+.menu_bar ul li:hover .submenu ul{
+    display: block;
+    margin: 10px;
+}
+
+.submenu ul{
+    list-style: none;
+}
+
+.submenu1{
+    display: none;
+} 
+
+.menu_bar ul li:hover .submenu1{
+    display: block;
+    position: absolute;
+    background-color: black;
+    margin-top: 15px;
+    margin-left: -15px;
+    width: 150px;
+}
+
+.menu_bar ul li:hover .submenu1 ul{
+    display: block;
+    margin: 10px;
+}
+.submenu1 ul {
+    list-style: none;
+}
+
+.submenu2{
+    display: none;
+}
+.menu_bar ul li:hover .submenu2{
+    display: block;
+    background-color: black;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -15px;
+    width: 150px;
+}
+
+.menu_bar ul li:hover .submenu2 ul{
+    display: block;
+    margin: 10px;
+}
+
+.submenu2 ul{
+    list-style: none;
+}
